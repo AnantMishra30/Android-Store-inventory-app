@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/search_product"
+        android:title="@string/search_product"
+        android:icon="@drawable/ic_search_white_24dp"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/search_product_2"
+        android:title="@string/search_product"
+        android:icon="@drawable/ic_search_white_24dp"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        android:visible="false"/>
+
+    <item
+        android:id="@+id/settings_product"
+        android:title="@string/settings_product_activity"
+        android:icon="@drawable/ic_settings_white_24dp"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/add_product"
+        android:title="@string/add_product"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/delete_product"
+        android:title="@string/delete_product"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/delete_all_products"
+        android:title="@string/delete_all"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/select_all"
+        android:title="@string/select_all"
+        app:showAsAction="never"
+        android:visible="false"/>
+
+    <item
+        android:id="@+id/deselect_all"
+        android:title="@string/deselect_all"
+        app:showAsAction="never"
+        android:visible="false"/>
+
+</menu>

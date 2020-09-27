@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.storeinventory">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/empty_store_1"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ProductActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name=".data.StoreProvider"
+            android:authorities="com.example.android.storeinventory"
+            android:exported="false" />
+
+        <activity
+            android:name=".EditorActivity"
+            android:parentActivityName=".ProductActivity"
+            android:theme="@style/EditorTheme">
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ProductActivity" />
+        </activity>
+        <activity
+            android:name=".SearchProductActivity"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".ProductActivity"
+            android:theme="@style/EditorTheme">
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ProductActivity" />
+        </activity>
+        <activity
+            android:name=".ViewPicture"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar.Fullscreen" />
+        <activity
+            android:name=".SearchProductActivity2"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".ProductActivity"
+            android:theme="@style/EditorTheme">
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ProductActivity" />
+        </activity>
+        <activity
+            android:name=".Settings"
+            android:theme="@style/SettingsTheme"
+            android:parentActivityName=".ProductActivity">
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ProductActivity" />
+        </activity>
+    </application>
+
+</manifest>

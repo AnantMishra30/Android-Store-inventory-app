@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="search_mode_options">
+        <item>@string/and</item>
+        <item>@string/or</item>
+    </string-array>
+
+    <string-array name="number_options">
+        <item>@string/or_more</item>
+        <item>@string/or_less</item>
+        <item>@string/exactly</item>
+    </string-array>
+
+    <string-array name="search_by_options">
+        <item>@string/name</item>
+        <item>@string/supplier_name_2</item>
+        <item>@string/supplier_e_mail_2</item>
+        <item>@string/supplier_phone_2</item>
+    </string-array>
+
+    <string-array name="searchArray">
+        <item>Detailed Search</item>
+        <item>Quick Search</item>
+    </string-array>
+
+    <string-array name="searchValues">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="searchOptionsArray">
+        <item>@string/and_name</item>
+        <item>@string/and_supp_name</item>
+        <item>@string/and_supp_email</item>
+        <item>@string/and_supp_phone</item>
+        <item>@string/or_name</item>
+        <item>@string/or_supp_name</item>
+        <item>@string/or_supp_email</item>
+        <item>@string/or_supp_phone</item>
+    </string-array>
+
+    <string-array name="searchOptionsValues">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+
+</resources>

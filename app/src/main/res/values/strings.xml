@@ -1,0 +1,157 @@
+<resources>
+    <string name="app_name">Store Inventory</string>
+
+    <!-- Product Activity -->
+    <string name="products">Products</string>
+
+    <!-- menu_product -->
+    <string name="search_product">Search Product</string>
+    <string name="settings_product_activity">Settings Product Activity</string>
+    <string name="add_product">Add Product</string>
+    <string name="search_supplier">Search Supplier</string>
+    <string name="delete_product">Delete Product(s)</string>
+    <string name="delete_all">Delete All</string>
+
+    <string name="select_all">Select all</string>
+    <string name="deselect_all">Deselect all</string>
+
+    <!-- product_list_item -->
+    <string name="track_sale">Track Sale\n5% OFF</string>
+
+    <string name="price">Price : </string>
+    <string name="quantity">Quantity : </string>
+
+    <!-- activity_product -->
+    <string name="looks_like_empty_store">Looks like empty store</string>
+    <string name="get_started_by_adding_a_product">Get Started by adding a product</string>
+    <string name="product_empty_view">Product Empty View</string>
+
+    <string name="cancel_caps">CANCEL</string>
+    <string name="delete_num">DELETE(0)</string>
+
+    <!-- Editor Activity -->
+    <string name="add_a_product">Add a product</string>
+    <string name="edit_a_product">Edit a Product</string>
+
+    <string name="error_with_saving_product">Error with saving product</string>
+    <string name="product_saved">Product saved</string>
+    <string name="error_with_updating_product">Error with updating product</string>
+    <string name="product_updated">Product updated</string>
+    <string name="product_deleted">Product Deleted</string>
+
+    <string name="delete_all_products">Delete all products?</string>
+    <string name="all_products_deleted">All products deleted</string>
+
+    <string name="delete_dialog_msg">Delete this product?</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+    <string name="discard">Discard</string>
+    <string name="keep_editing">Keep Editing</string>
+
+    <!-- menu_editor -->
+    <string name="done">Done</string>
+    <string name="delete">Delete</string>
+
+    <!-- activity_editor -->
+    <string name="overview">Overview</string>
+    <string name="name">Name</string>
+    <string name="price2">Price</string>
+    <string name="quantity2">Quantity</string>
+    <string name="product_picture">Product Picture</string>
+    <string name="from_gallery">From\nGallery</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="from_camera">From\nCamera</string>
+    <string name="supplier">Supplier</string>
+    <string name="supplier_name">Name</string>
+    <string name="supplier_e_mail">E-mail</string>
+    <string name="supplier_phone">Phone</string>
+    <string name="info">Information of the product</string>
+    <string name="note_optional_2">Note that below field is optional</string>
+    <string name="order_more">Order More</string>
+    <string name="product_pic">a picture of the product</string>
+    <string name="track_sale_2">Track sale</string>
+    <string name="receive_shipment">Receive Shipment</string>
+
+    <!-- Search Product Activity -->
+    <string name="search_products">Search Products</string>
+
+
+    <!-- search product activity -->
+    <string name="and">AND</string>
+    <string name="or">OR</string>
+
+    <string name="empty">Empty</string>
+
+    <string name="or_more">Or More</string>
+    <string name="or_less">Or Less</string>
+    <string name="exactly">Exactly</string>
+
+    <string name="type_to_search">Type to Search</string>
+    <string name="search_by">Search by :</string>
+
+    <string name="supplier_name_2">Supp Name</string>
+    <string name="supplier_e_mail_2">Supp E-mail</string>
+    <string name="supplier_phone_2">Supp Phone</string>
+
+    <string name="search_style_key">searchStyleKey</string>
+
+    <string name="no_results_found">No Results Found</string>
+
+    <string name="detailed_search">Detailed Search</string>
+    <string name="quick_search">Quick Search</string>
+
+    <string name="sort_by">Sort by</string>
+
+    <string name="title">Title</string>
+    <string name="summary">Summary</string>
+
+    <string name="default_search_options_key">Default Search Options Key</string>
+
+    <!-- for search option shared preference -->
+    <string name="and_name">AndName</string>
+    <string name="and_supp_name">AndSuppName</string>
+    <string name="and_supp_email">AndSuppEmail</string>
+    <string name="and_supp_phone">AndSuppPhone</string>
+    <string name="or_name">OrName</string>
+    <string name="or_supp_name">OrSuppName</string>
+    <string name="or_supp_email">OrSuppEmail</string>
+    <string name="or_supp_phone">OrSuppPhone</string>
+
+
+    <string name="default_settings_key">Default Settings Key</string>
+
+    <string name="ok">Ok</string>
+
+    <string name="back_to_default_settings">Erase all settings changes and back to default ?</string>
+
+    <string name="save_current_settings_key">Save Current Settings Key</string>
+
+    <string name="delete_all_warning">Delete all saved slots ?</string>
+
+    <string name="delete_warning">Delete This Slot ?</string>
+
+    <!-- SettingsFragment -->
+    <string name="override_saved_slot">Sure to override this saved slot setting ?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <string name="save_current_settings">Save Current Settings</string>
+    <string name="load_settings">Load Settings</string>
+    <string name="save">Save</string>
+    <string name="load">Load</string>
+
+    <string name="empty_slot">Empty Slot</string>
+
+    <string name="by_1">by 1</string>
+
+    <string name="another_search">Another Search</string>
+
+    <string name="to_main_screen">To Main Screen</string>
+
+    <string name="supplier_name_3">Supplier Name</string>
+
+    <string name="search">Search</string>
+
+    <string name="search_mode">Search Mode</string>
+</resources>

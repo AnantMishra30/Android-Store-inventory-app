@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#ffffff"
+    tools:context="com.example.android.storeinventory.SearchProductActivity2">
+
+    <LinearLayout
+        android:id="@+id/sort_by_container"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_marginBottom="@dimen/dp_16">
+
+        <TextView
+            android:layout_gravity="center_vertical|start"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="@string/search_by"/>
+
+        <Spinner
+            android:id="@+id/search_by"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="match_parent"
+            android:spinnerMode="dropdown"
+            android:drawSelectorOnTop="true"
+            android:entries="@array/search_by_options"/>
+
+    </LinearLayout>
+
+    <SearchView
+        android:layout_below="@id/sort_by_container"
+        android:id="@+id/search_view_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:queryHint="@string/type_to_search"
+        android:inputType="textCapWords"
+        android:background="@drawable/frame_black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/search_view_1"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/no_results_found"
+        android:id="@+id/no_results"/>
+
+    <ListView
+        android:id="@+id/searchable_list_view"
+        android:layout_below="@id/search_view_1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</RelativeLayout>

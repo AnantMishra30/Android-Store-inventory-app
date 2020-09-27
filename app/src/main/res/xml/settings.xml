@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:title="Search Style"
+        android:summary="Select which style to use for search"
+        android:key="@string/search_style_key"
+        android:defaultValue="1"
+        android:entries="@array/searchArray"
+        android:entryValues="@array/searchValues" />
+
+    <Preference
+        android:title="Search Options"
+        android:summary="Set search options in each search style"
+        android:key="@string/default_search_options_key"
+        android:defaultValue="1"
+        android:entries="@array/searchOptionsArray"
+        android:entryValues="@array/searchOptionsValues" />
+
+    <Preference
+        android:title="Save/Load Settings"
+        android:summary="Save/load settings into/from various slots"
+        android:key="@string/save_current_settings_key" />
+
+    <Preference
+        android:title="Default Settings"
+        android:summary="Set all settings back to default"
+        android:key="@string/default_settings_key" />
+
+</PreferenceScreen>
